@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-       task1();
-       task2();
-       task3();
-       task4();
+        task1();
+        task2();
+        task3();
+        task4();
         task5();
 
     }
@@ -69,12 +69,12 @@ public class Main {
         int deliveryDistance = sc.nextInt();
 
         if (deliveryDistance <20 ) {
-            System.out.println("Потребуется 1 день");
+            System.out.printf("Потребуется 1 день для доставки на расстояние %d км", deliveryDistance);
             } else if (deliveryDistance >= 20 && deliveryDistance < 60) {
-            System.out.println("Потребуется 2 дня");
+            System.out.printf("Потребуется 2 дня для доставки на расстояние %d км", deliveryDistance);
             }
         else if (deliveryDistance >= 60 && deliveryDistance <100){
-            System.out.println("Потребуется 3 дня");
+            System.out.printf("Потребуется 3 дня для доставки на расстояние %d км", deliveryDistance);
         } else {
             System.out.println("в такую ж..у мы не доставляем");
         }
